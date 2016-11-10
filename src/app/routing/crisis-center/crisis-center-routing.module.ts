@@ -3,22 +3,15 @@ import { RouterModule }   from '@angular/router';
 import { CrisisCenterComponent }  from './crisis-center.component';
 import { CrisisDetailComponent }  from './crisis-detail.component';
 
-
-
-
 @NgModule({
     imports: [
         RouterModule.forChild([
-            {
-                path: '',
-                redirectTo: '/crisis-center',
-                pathMatch: 'full'
-            },
+
             {
                 path: 'crisis-center',
-                component: CrisisCenterComponent,
+                component: CrisisCenterComponent
             },
-            {path: 'crisis-center/:id', component: CrisisDetailComponent},
+            {path: 'crisis-center/:id', component: CrisisDetailComponent}
         ])
     ],
    

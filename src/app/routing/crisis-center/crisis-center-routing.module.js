@@ -20,15 +20,10 @@ var CrisisCenterRoutingModule = (function () {
             imports: [
                 router_1.RouterModule.forChild([
                     {
-                        path: '',
-                        redirectTo: '/crisis-center',
-                        pathMatch: 'full'
-                    },
-                    {
                         path: 'crisis-center',
-                        component: crisis_center_component_1.CrisisCenterComponent,
+                        component: crisis_center_component_1.CrisisCenterComponent
                     },
-                    { path: 'crisis-center/:id', component: crisis_detail_component_1.CrisisDetailComponent },
+                    { path: 'crisis-center/:id', component: crisis_detail_component_1.CrisisDetailComponent }
                 ])
             ],
             exports: [
