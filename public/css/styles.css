@@ -1,0 +1,13 @@
+body {
+    background: #0147A7;
+    color: #fff;
+}
+nav a {
+    margin-right: 1%;
+
+}
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: 5vw;
+    }
+}

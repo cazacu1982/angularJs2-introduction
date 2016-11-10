@@ -1,0 +1,19 @@
+.hero-list  {
+    margin: 5% auto;
+    list-style-type: none;
+    padding: 2%;
+    width: 9%;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+}
+ul {
+    padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero-list {
+        width: 30%;
+    }
+}
